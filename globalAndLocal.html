@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			var global1 = "I am Global Variable";
+
+			function print(){
+
+				var local = "I am Local Variable";
+				document.write(global1);
+			}
+
+			print();
+			document.write(local);
+		</script>
+
+		<input type="button" value=" click me!" onclick="print()">
+	</body>
+</html>
